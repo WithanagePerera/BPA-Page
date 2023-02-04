@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1" />
+        <meta http-equiv = "X-UA-Compatible" content = "ie-edge" />
+        <meta http-equiv="Cache-control" content= "no-cache">
+
+        <link rel="shortcut icon" type="image/png" href= "images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;550&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;490&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" href = "stylers/index.css" />
+
+        <title>Noles BPA</title>
+    </head>
+
+    <body>
+        <header>
+            <div id = 'bar'>
+                <a href = 'https://bpa.org/'><img src = 'images/logo.png' alt = 'logo' id = 'image'></a>
+                <a class = 'header' href = 'index.html'>Noles BPA</a>
+                <nav>
+                    <ul class = 'nav-links'>
+                        <li><a class = 'nav-link' id = 'selected' href = 'index.html'>Home</a></li>
+                        <li><a class = 'nav-link' href = 'pages/forms-documents.html'>Forms-Documents</a></li>
+                        <li><a class = 'nav-link' href = 'pages/meeting-info.html'>Meeting-Info</a></li>
+                        <li><a class = 'nav-link' href = 'pages/presubmissions.html'>Presubmissions</a></li>
+                        <li><a class = 'nav-link' href = 'pages/info-status.html'>Status</a></li>
+                        <li><a class = 'nav-link' href = 'pages/officers.html'>Officers</a></li>
+                        <li><a class = 'nav-link' href = 'pages/contact.html'>Contact</a></li>
+                    </ul>
+                </nav>
+                <button id = 'pages'>Pages</button>
+            </div>
+        </header>
+
+        <div id = 'side-nav'>
+            <img src = 'images/exit-button.png' id = 'exit-nav' style = 'height: 40px; position: absolute; right: 10px; top: 10px;'>
+            <div style = 'padding-bottom: 8vh;'></div>
+            <nav>
+                <ul>
+                    <li id = 'selected'><a href = 'index.html'>Home</a></li>
+                    <li><a href = 'pages/forms-documents.html'>Forms-Documents</a></li>
+                    <li><a href = 'pages/meeting-info.html'>Meeting-Info</a></li>
+                    <li><a href = 'pages/presubmissions.html'>Presubmissions</a></li>
+                    <li><a href = 'pages/info-status.html'>Status</a></li>
+                    <li><a href = 'pages/officers.html'>Officers</a></li>
+                    <li><a href = 'pages/contact.html'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <section>
+                <h2 id = 'mission'>Mission Statement:</h2>
+                <p id = 'mission-statement'>"Our mission at Business Professionals of America is to develop and empower student leaders to discover their passion and change the world by creating unmatched opportunities in learning, professional growth, and service."</p>
+            </section>
+
+            <br></br>
+
+            <section id = 'main-content'>
+                <div id = 'left-spacer'></div>
+
+                <div id = 'deadline-info'>
+                    <div id = 'info'>
+                        <h2 id = 'deadline'> Dates:</h2>
+                        <ul>
+                            <li class = 'deadlines'>Second Meeting: <b>September 22nd</b></li>
+                            <li class = 'deadlines'>Registration Info. Due: <b>September 29th</b></li>
+                            <li class = 'deadlines'>Event Selections Due: <b>October 6th</b></li>
+                        </ul>
+                    </div>
+
+
+        </main>
+
+        <div style = 'padding-bottom: 5vh;'></div>
+
+        <script src = 'js/index.js'></script>
+        <script src = 'js/more_pages.js'></script>
+        <script src = 'js/mobile_check.js'></script>
+    </body>
+</html>

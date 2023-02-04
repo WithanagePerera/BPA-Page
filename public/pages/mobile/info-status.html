@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1" />
+        <meta http-equiv = "X-UA-Compatible" content = "ie-edge" />
+        <meta http-equiv="Cache-control" content= "no-cache">
+
+        <link rel="shortcut icon" type="image/png" href= "../../images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;490&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" href = "../../stylers/mobile/info-status.css" />
+        
+        <title>Info Status</title>
+    </head>
+
+    <body>
+        <header>
+            <div id = 'upper-space'></div>
+            <div id = 'bar'>
+                <a class = 'header' href = 'index.html'>Noles BPA</a>
+                <button id = 'more-pages'>Pages</button>
+            </div>
+            <div id = 'bottom-space'></div>
+        </header>
+
+        <br></br>
+
+        <main>
+            <div id = 'popup'></div>
+            <div id = 'link'>
+                <a id = 'sheets-link' href = 'https://docs.google.com/spreadsheets/d/1H7x1HTFPUKKSmiOSHzmNo9UDExIPTIc7/edit?usp=sharing&ouid=102816318671901753752&rtpof=true&sd=true'>Sheets Link</a>
+            </div>
+            <br></br>
+
+            <p>Embed takes a few seconds to load.</p>
+            <iframe id = 'sheet' style = 'width: 97%;' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQaUWTz0ZgU6_PImUh_Ep0fbDix6ZcGZyYnc3sYxDneRPgywvdqCGvIw9l1XOskjg/pubhtml?widget=true&amp;headers=false"></iframe>
+
+            <p id = 'end-spacer'></p>
+        </main>
+
+        <script src = '../../js/mobile/navigation.js'></script>
+        <script src = '../../js/mobile/mobile_check.js'></script>
+    </body>
+</html>

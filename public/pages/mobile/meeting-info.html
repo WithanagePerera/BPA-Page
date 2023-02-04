@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1" />
+        <meta http-equiv = "X-UA-Compatible" content = "ie-edge" />
+
+        <link rel="shortcut icon" type="image/png" href= "../../images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;490&display=swap" rel="stylesheet">
+
+        <link rel = "stylesheet" href = "../../stylers/mobile/meeting-info.css" />
+
+        <title>Meeting Info</title>
+    </head>
+
+    <body>
+        <header>
+            <div id = 'upper-space'></div>
+            <div id = 'bar'>
+                <a class = 'header' href = 'index.html'>Noles BPA</a>
+                <button id = 'more-pages'>Pages</button>
+            </div>
+            <div id = 'bottom-space'></div>
+        </header>
+
+        <main>
+            <div id = 'popup'></div>
+
+            <h2>Last Meeting Info:</h2>
+
+            <div style = 'padding: 15px 0px 15px 0px;'></div>
+            <a href = '#' id = 'last-meeting'>Last Meeting</a>
+            <div style = 'padding-bottom: 4vh;'></div>
+            <p>Embed takes a few seconds to load.</p>
+            <iframe id = 'presentation' src="https://docs.google.com/presentation/d/e/2PACX-1vSydK2UEvOFweWv58ANxgg9Yx-54H4ecqRlmStvHBODKum5aiIHElO2hdpRPqotTg7FxZMj1jbCjT28/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height = '280px' allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <div id = 'bottom-spacer'></div>
+        </main>
+
+        <script src = '../../js/mobile/navigation.js'></script>
+        <script src = '../../js/mobile/mobile_check.js'></script>
+    </body>
+</html>

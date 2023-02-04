@@ -1,0 +1,210 @@
+*
+{
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 500;
+}
+
+header
+{
+    align-items: center;
+    background-color: white;
+    border-top: rgb(0, 60, 91) solid;
+    border-top-width: 2.5vh;
+    border-bottom: red solid;
+    border-bottom-width: 1vh;
+}
+
+.header
+{
+    font-family: 'Roboto Slab', serif;    
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 500;
+    flex: 1.3;
+}
+
+#image
+{
+    flex: 1.5;
+    max-width: 270px;
+    min-width: 270px;
+}
+
+#bar
+{
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+nav
+{
+    flex: 5;
+    height: 3vh;
+}
+
+.nav-links
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link
+{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 10px;
+}
+
+.nav-link:hover
+{
+    color: white;
+    background-color: rgb(0, 60, 91);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+#selected
+{
+    color: white;
+    background-color: rgb(0, 60, 91);
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+#pages
+{
+    display: none;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    padding: 6.5px 7px 6.5px 7px;
+    background-color: red;
+    border-radius: 7px;
+    border-width: 3px;
+}
+
+#side-nav
+{
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    width: 200px;
+    max-width: 100%;
+    background-color: #003c5b;
+}
+
+#side-nav ul
+{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#side-nav li
+{
+    border-bottom: white solid;
+    border-width: 1px;
+}
+
+#side-nav a
+{
+    color: white;
+    font-size: 20px;
+    line-height: 80px;
+    font-weight: 500;
+}
+
+#side-nav li:hover
+{
+    background-color: rgb(173, 22, 22);
+}
+
+#side-nav #selected
+{
+    background-color: rgb(173, 22, 22);
+}
+
+@media screen and (max-width: 100vw)
+{
+    #side-nav
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px)
+{
+    .nav-link
+    {
+        display: none;
+    }
+    #bar
+    {
+        padding: 10px 0px 10px 0px;
+    }
+    .header
+    {
+        flex: 40;
+    }
+    #pages
+    {
+        display: block;
+    }
+}
+
+h2
+{
+    padding-bottom: 25px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#upload-presubs
+{
+    background-color: red;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    border: rgb(0, 60, 91) solid;
+    border-width: 4px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#file-convention
+{
+    background-color: red;
+    color: black;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 10px;
+    border: rgb(0, 60, 91) solid;
+    border-width: 4px;
+    border-radius: 5px;
+}
+
+#warning
+{
+    padding-top: 30px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+#read
+{
+    padding-bottom: 3vh;
+}
