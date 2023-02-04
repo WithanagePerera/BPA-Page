@@ -1,27 +1,95 @@
 *
 {
-    font-family: 'Nunito', sans-serif;
+    color: white;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-align: center;
+}
+
+main
+{
     background-color: black;
 }
 
-header
+#nameImage
 {
-    align-items: center;
-    background-color: white;
-    border-top: rgb(0, 60, 91) solid;
-    border-top-width: 2.5vh;
-    border-bottom: red solid;
-    border-bottom-width: 1vh;
+    width: 95%;
+    margin: auto;
+}
+
+#title
+{
+    width: 50%;
+    margin-top: 28vh;
+    font-weight: 500;
+    font-size: 60px;
+    float: left;
+}
+
+h1.unstyled, h6
+{
+    font-family: 'Lexend', sans-serif;
+}
+
+#intro
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: left;
+    width: 40%;
+    margin: auto auto auto 10%;
+    line-height: 60px;
+}
+
+#meet-button
+{
+    background-color: red;
+    padding: 5px;
+    border: white solid;
+    border-width: 3px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1250px)
+{
+    #image
+    {
+        display: none;
+        width: 0%;
+    }
+    #title
+    {
+        width: 100%;
+    }
+    #intro
+    {
+        padding-top: 50px;
+        text-align: center;
+        align-content: center;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+#image
+{
+    width: 50%;
+
+    float: right;
+}
+
+#clearfix
+{
+    clear: both;
 }
 
 .header
 {
-    font-family: 'Roboto Slab', serif;    
-    color: black;
     text-align: center;
     text-decoration: none;
     font-size: 35px;
@@ -29,30 +97,28 @@ header
     flex: 1.3;
 }
 
-#image
-{
-    flex: 1.5;
-    max-width: 270px;
-    min-width: 270px;
-}
-
 #bar
 {
+    background-color: rgb(1, 34, 204);
     align-items: center;
     display: flex;
     width: 90%;
     height: fit-content;
     margin: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 nav
 {
     flex: 5;
-    height: 3vh;
+    height: fit-content;
 }
 
 .nav-links
 {
+    font-family: 'Lexend', sans-serif;
+    background-color: rgb(1, 34, 204);
     display: flex;
     flex: 1;
     justify-content: space-around;
@@ -64,8 +130,7 @@ nav
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
-    color: black;
-    padding: 10px;
+    background-color: rgb(1, 34, 204);
 }
 
 .nav-link:hover
@@ -78,10 +143,7 @@ nav
 
 #selected
 {
-    color: white;
-    background-color: rgb(0, 60, 91);
     text-decoration: underline;
-    border-radius: 5px;
 }
 
 #pages
@@ -90,7 +152,6 @@ nav
     font-size: 20px;
     text-decoration: none;
     font-weight: 500;
-    color: black;
     padding: 6.5px 7px 6.5px 7px;
     background-color: red;
     border-radius: 7px;
@@ -147,7 +208,7 @@ nav
     }
 }
 
-@media screen and (max-width: 1500px)
+@media screen and (max-width: 800px)
 {
     .nav-link
     {
@@ -175,23 +236,7 @@ nav
     }
 }
 
-#mission
-{
-    padding-top: 30px;
-    font-size: 35px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-}
 
-#mission-statement
-{
-    font-size: 20px;
-    text-align: center;
-    width: 50vw;
-    margin: auto;
-    line-height: 40px;
-}
 
 #deadline-info
 {
@@ -199,121 +244,40 @@ nav
     justify-content: center;
 }
 
-#info
+#bottom-content
 {
+    height: 35vh;
+    background-color: rgb(239, 59, 59);
+    border-top: rgb(65, 7, 7) solid;
+    border-width: 1vh;
+}
+
+#bottom-container
+{
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    width: 80%; 
     margin: auto;
-    padding: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: fit-content;
-    border: rgb(0, 60, 91) solid;
-    border-width: 5px;
-    border-radius: 7px;
 }
 
-#deadline
+#left-column
 {
-    font-size: 35px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.deadlines
-{
+    flex: 1.5;
+    padding-top: 15vh;
     font-size: 22px;
-    text-align: left;
-    list-style: none;
+}
+
+#right-column
+{
+    flex: 1;
+    text-decoration: none;
+    padding-top: 5vh;
     line-height: 40px;
 }
 
-#placeholder
+#right-column li, a
 {
-    flex: 3;
-    justify-content: center;
-}
-
-.intro
-{
-    margin:auto;
-    position: absolute;
-    height: 50vh;
-}
-
-.slideshow-img
-{
-    position: absolute;
-    height: 100%;
-    object-fit:contain;
-    display: none;
-    border: red solid;
-    border-width: 7px;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 1280px)
-{
-    #placeholder
-    {
-        display: none;
-    }
-
-    #right-spacer
-    {
-        display: none;
-    }
-
-    #left-spacer
-    {
-        display: none;
-    }
-}
-
-#main-content
-{
-    display: flex;
-}
-
-#left-spacer
-{
-    flex: 2;
-}
-
-#right-spacer
-{
-    flex: 4;
-}
-
-.links
-{
-    color: black;
-    background-color: red;
-    border: rgb(0, 60, 91) solid;
-    border-width: 5px;
-    border-radius: 7px;
-    padding: 10px;
+    list-style: none;
+    text-decoration: none;
     font-size: 20px;
-    font-weight: 500;
-}
-
-#presubs
-{
-    padding-left: 41px;
-    padding-right: 40px;
-}
-
-#status
-{
-    padding-left: 63px;
-    padding-right: 63px;
-}
-
-#quick-links
-{
-    padding-top: 10px;
-}
-
-b
-{
-    font-weight: 550;
 }
