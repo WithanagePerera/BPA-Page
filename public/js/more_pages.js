@@ -19,7 +19,7 @@ exitNav.addEventListener('click', e =>
 window.addEventListener("resize", e =>
     {
         e.preventDefault();
-        if (!window.screenTop && !window.screenY) {
+        if (window.innerWidth > 800) {
             sideNav.style.display = "none";
         }
     }
