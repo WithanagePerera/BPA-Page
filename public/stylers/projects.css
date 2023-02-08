@@ -208,6 +208,15 @@ nav
     border-radius: 5px;
 }
 
+@media screen and (max-width: 1444px)
+{
+    .images
+    {
+        display: none;
+        float: none;
+    }
+}
+
 .link
 {
     padding: 10px;
@@ -215,6 +224,11 @@ nav
     border: solid white;
     border-radius: 8px;
     margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    float: left;
+    margin-left: 0px;
 }
 
 .link b

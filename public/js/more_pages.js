@@ -25,4 +25,4 @@ window.addEventListener("resize", e =>
     }
 )
 
-console.log(document.window.innerWidth);
+console.log(window.innerWidth);
