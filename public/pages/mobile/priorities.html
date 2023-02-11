@@ -6,7 +6,7 @@
         <meta http-equiv = "X-UA-Compatible" content = "ie-edge" />
         <meta http-equiv="Cache-control" content= "no-cache">
 
-        <link rel="shortcut icon" type="image/png" href= "images/favicon.ico">
+        <link rel="shortcut icon" type="image/png" href= "../images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;550&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
 
-        <link rel = "stylesheet" href = "../../stylers/mobile/index.css" />
+        <link rel = "stylesheet" href = "../../stylers/mobile/priorities.css" />
 
         <title>Withanage Perera</title>
     </head>
@@ -26,10 +26,10 @@
             <div id = 'bar'>
                 <nav>
                     <ul class = 'nav-links'>
-                        <li><a class = 'nav-link' id = 'selected' href = 'index.html'>Home</a></li>
-                        <li><a class = 'nav-link' href = 'pages/meet-withanage.html'>Meet Withanage</a></li>
-                        <li><a class = 'nav-link' href = 'pages/priorities.html'>Priorities</a></li>
-                        <li><a class = 'nav-link' href = 'pages/projects.html'>Projects</a></li>
+                        <li><a class = 'nav-link' href = '../index.html'>Home</a></li>
+                        <li><a class = 'nav-link' href = 'meet-withanage.html'>Meet Withanage</a></li>
+                        <li><a class = 'nav-link' id = 'selected' href = 'priorities.html'>Priorities</a></li>
+                        <li><a class = 'nav-link' href = 'projects.html'>Projects</a></li>
                     </ul>
                 </nav>
                 <button id = 'pages'>Pages</button>
@@ -38,28 +38,26 @@
 
         <br></br>
 
-        <div id = 'nameImage'>
-            <div id = 'title'>
-                <h1 class = 'unstyled'>Withanage Perera</h1>
-                <h6 style = 'margin-top: 10px;'>For FLBPA State Office</h6>
-            </div>
 
-            <div>
-                <img id = 'image' src = '../../images/Withanage.png'>
-            </div>
-            
-            <div id = 'clearfix'></div>
+        <div id = 'side-nav'>
+            <img src = 'images/exit-button.png' id = 'exit-nav' style = 'height: 40px; position: absolute; right: 10px; top: 10px;'>
+            <div style = 'padding-bottom: 8vh;'></div>
+            <nav>
+                <ul>
+                    <li id = 'selected'><a href = 'index.html'>Home</a></li>
+                    <li><a href = 'pages/forms-documents.html'>Forms-Documents</a></li>
+                    <li><a href = 'pages/meeting-info.html'>Meeting-Info</a></li>
+                    <li><a href = 'pages/presubmissions.html'>Presubmissions</a></li>
+                    <li><a href = 'pages/info-status.html'>Status</a></li>
+                    <li><a href = 'pages/officers.html'>Officers</a></li>
+                    <li><a href = 'pages/contact.html'>Contact</a></li>
+                </ul>
+            </nav>
         </div>
                 
-        <div style = 'padding-top: 40vh;'></div>
+        <p id = 'intro'>A junior at Seminole High School, Region 302, this is Withanage's 3rd year of BPA. In that time, he has learned what it means to be a leader and the qualities of leader.  <a href = 'pages/meet-withanage.html' id = 'meet-button'>Meet Withanage</a></p>
 
-        <h1 id = 'slogan'>Win With Withanage</h1>
-        
-        <div style = 'padding-top: 12vh;'></div>
-
-        <p id = 'intro'>A junior at Seminole High School, Region 302, this is Withanage's 3rd year of BPA. In that time, he has learned what it means to be a leader and what the qualities of a leader are.  <a href = 'pages/meet-withanage.html' id = 'meet-button'>Meet Withanage</a></p>
-
-        <div style = 'padding-bottom: 30vh;'></div>
+        <div style = 'padding-bottom: 25vh;'></div>
 
         </main>
     
@@ -78,7 +76,7 @@
             </div>
         </section>
 
-        <script src = 'js/more_pages.js'></script>
-        <script src = 'js/mobile_check.js'></script>
+        <script src = '../js/more_pages.js'></script>
+        <script src = '../js/mobile_check.js'></script>
     </body>
 </html>
