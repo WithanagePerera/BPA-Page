@@ -56,11 +56,11 @@ main
     background-color: rgb(1, 34, 204);
     align-items: center;
     display: flex;
-    width: 90%;
+    width: 100%;
     height: fit-content;
     margin: auto;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 nav
@@ -81,15 +81,10 @@ nav
 
 .nav-link
 {
-    font-size: 20px;
+    font-size: 8px;
     text-decoration: none;
     font-weight: 500;
     background-color: rgb(1, 34, 204);
-}
-
-.nav-link:hover
-{
-    text-decoration: underline;
 }
 
 #selected
@@ -107,61 +102,6 @@ nav
     background-color: red;
     border-radius: 7px;
     border-width: 3px;
-}
-
-#side-nav
-{
-    display: none;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 200px;
-    max-width: 100%;
-    background-color: rgb(1, 34, 204);
-}
-
-#side-nav ul
-{
-    list-style: none;
-    padding-bottom: 10px;
-}
-
-#side-nav li
-{
-    font-family: 'Lexend', sans-serif;
-    border-bottom: white solid;
-    border-width: 1px;
-}
-
-#side-nav a
-{
-    color: white;
-    font-size: 20px;
-    line-height: 80px;
-    font-weight: 500;
-}
-
-#side-nav li:hover, #side-nav #selected
-{
-    background-color: rgb(173, 22, 22);
-}
-
-@media screen and (max-width: 800px)
-{
-    .nav-link
-    {
-        display: none;
-    }
-    #bar
-    {
-        padding: 13px;
-        border: solid white;
-    }
-    #pages
-    {
-        display: block;
-    }
 }
 
 #header
