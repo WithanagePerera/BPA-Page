@@ -30,45 +30,84 @@ main
     background-color: black;
 }
 
-#nameImage
-{
-    width: 95%;
-    margin: auto;
-}
-
 #title
 {
-    width: 50%;
     margin-top: 12%;
     font-weight: 500;
     font-size: 15px;
-    float: left;
 }
 
-h1.unstyled, h6
+h1.unstyled, h2
 {
     font-family: 'Lexend', sans-serif;
+}
+
+#image
+{
+    width: 80%;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.arrow
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow span
+{
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(45deg);
+    animation: animate 2s infinite;
+    padding-bottom: 35px;
+}
+@keyframes animate
+{
+    0%
+    {
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        opacity: 0;
+    }
 }
 
 #slogan
 {
     width: 100%;
-    font-size: 35px;
+    font-size: 32px;
     font-family: 'Lexend', sans-serif;
 }
 
 #intro
 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 35px;
+    font-size: 15px;
     text-align: center;
-    width: 50%;
+    width: 90%;
     margin: auto;
-    line-height: 10vh;
+    line-height: 5vh;
+    padding-bottom: 20px;
 }
 
 #meet-button
 {
+    font-family: 'Quicksand', sans-serif;
     background-color: red;
     padding: 5px;
     border: white solid;
@@ -77,18 +116,7 @@ h1.unstyled, h6
     color: black;
     text-decoration: none;
     margin-left: 5px;
-    font-size: 35px;
-}
-
-#image
-{
-    width: 50%;
-    float: right;
-}
-
-#clearfix
-{
-    clear: both;
+    font-size: 15px;
 }
 
 .header
@@ -155,7 +183,7 @@ nav
 
 #bottom-content
 {
-    height: 35vh;
+    height: 37vh;
     background-color: rgb(239, 59, 59);
     border-top: rgb(65, 7, 7) solid;
     border-width: 1vh;
@@ -171,14 +199,20 @@ nav
 
 #left-column
 {
-    flex: 1.5;
-    padding-top: 15vh;
-    font-size: 22px;
+    flex: 2;
+    padding-top: 12vh;
+    font-size: 10px;
+    line-height: 4vh;
+}
+
+#center-column
+{
+    flex: 0.5;
 }
 
 #right-column
 {
-    flex: 1;
+    flex: 2;
     text-decoration: none;
     padding-top: 5vh;
     line-height: 40px;
@@ -188,5 +222,5 @@ nav
 {
     list-style: none;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 10px;
 }
