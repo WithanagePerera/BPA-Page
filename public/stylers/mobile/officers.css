@@ -72,106 +72,73 @@ header
     border-radius: 5px;
 }
 
-#selected
+.position
 {
-    color: white;
-    background-color: rgb(0, 60, 91);
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
     text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#box
+{
+    width: 90%;
+    margin: auto;
+    border: rgb(0, 60, 91) solid;
+    border-width: 6px;
     border-radius: 5px;
 }
 
-#mission
+#gap
 {
-    font-size: 30px;
-    font-weight: 500;
+    height: 1.5vh;
+}
+
+.description
+{
     text-align: center;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.name
+{
     text-decoration: underline;
-    padding-top: 10px;
-}
-
-#mission-statement
-{
-    width: 90%;
-    margin: auto;
-    font-size: 16px;
-    text-align: center;
-    margin: auto;
-    line-height: 30px;
-}
-
-#deadline-info
-{
-    width: 90%;
-    margin: auto;
-}
-
-#info
-{
-    padding: 10px;
-    border: rgb(0, 60, 91) solid;
-    border-width: 5px;
-    border-radius: 7px;
-}
-
-#deadline
-{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
+    border-width: 3px;
 }
 
-.deadlines
+#last-description
 {
-    font-size: 18px;
-    font-weight: 500;
-    text-align: left;
-    list-style: none;
-    line-height: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.intro
+.bio, .last-bio
 {
-    margin: auto;
-    width: 90%;
-}
-
-.slideshow-img
-{
-    position: absolute;
-    width: 90%;
-    margin: auto;
-    display: none;
     border: red solid;
-    border-width: 7px;
-    border-radius: 10px;
+    border-width: 4px;
+    border-radius: 5px;
+    width: 65vw;
+    margin: auto;
+    padding: 10px 15px 0px 15px;
 }
 
-.links
+#bottom-spacer
 {
-    color: black;
-    background-color: red;
-    border: rgb(0, 60, 91) solid;
-    border-width: 5px;
-    border-radius: 7px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
+    padding-bottom: 3vh;
 }
 
-#presubs
+#section-gap
 {
-    padding-left: 41px;
-    padding-right: 41px;
+    padding: 25px;
 }
 
-#status
+#top
 {
-    padding-left: 41px;
-    padding-right: 41px;
-}
-
-b
-{
-    font-weight: 650;
+    padding-top: 15px;
 }

@@ -29,6 +29,12 @@ header
     flex: 1.7;
 }
 
+#image
+{
+    flex: 1.5;
+    width: 10vw;
+}
+
 #bar
 {
     align-items: center;
@@ -80,98 +86,32 @@ header
     border-radius: 5px;
 }
 
-#mission
+h2
 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
     text-align: center;
-    text-decoration: underline;
-    padding-top: 10px;
 }
 
-#mission-statement
+.image
 {
-    width: 90%;
-    margin: auto;
-    font-size: 16px;
-    text-align: center;
-    margin: auto;
-    line-height: 30px;
+    display: flex;
 }
 
-#deadline-info
+#remind, #instagram
 {
-    width: 90%;
+    width: 15%;
     margin: auto;
 }
 
-#info
+#gmail
 {
-    padding: 10px;
-    border: rgb(0, 60, 91) solid;
-    border-width: 5px;
-    border-radius: 7px;
-}
-
-#deadline
-{
-    font-size: 30px;
-    font-weight: 500;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.deadlines
-{
-    font-size: 18px;
-    font-weight: 500;
-    text-align: left;
-    list-style: none;
-    line-height: 40px;
-}
-
-.intro
-{
+    width: 24%;
     margin: auto;
-    width: 90%;
 }
 
-.slideshow-img
+#discord
 {
-    position: absolute;
-    width: 90%;
+    width: 17%;
     margin: auto;
-    display: none;
-    border: red solid;
-    border-width: 7px;
-    border-radius: 10px;
-}
-
-.links
-{
-    color: black;
-    background-color: red;
-    border: rgb(0, 60, 91) solid;
-    border-width: 5px;
-    border-radius: 7px;
-    padding: 10px;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-#presubs
-{
-    padding-left: 41px;
-    padding-right: 41px;
-}
-
-#status
-{
-    padding-left: 41px;
-    padding-right: 41px;
-}
-
-b
-{
-    font-weight: 650;
 }

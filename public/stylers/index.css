@@ -227,6 +227,7 @@ nav
     #bar
     {
         padding: 13px;
+        border: solid white;
     }
     #pages
     {
