@@ -223,12 +223,12 @@ nav
     background-color: red;
     border: solid white;
     border-radius: 8px;
-    margin-left: 10px;
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     float: left;
     margin-left: 0px;
+    margin-bottom: 15px;
 }
 
 .link b
